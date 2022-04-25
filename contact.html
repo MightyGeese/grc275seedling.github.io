@@ -13,14 +13,14 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
-            <link rel="stylesheet" href="mystyle.css">
+            <link rel="stylesheet" href="../mystyle.css">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
     </head>
     
     <body class="contactus">
         <div class="jumbotron text-center" style="background-color: crimson">
-            <a href="index.html">
-            <img class="img-fluid" src="Seedling.jpg" alt="Logo" width="768" height="151">
+            <a href="../HTML/index.html">
+            <img class="img-fluid" src="../IMAGES/Seedling.jpg" alt="Logo" width="768" height="151">
             </a>
         </div>
         
@@ -34,13 +34,43 @@
                     </li>
                     
                     <li class="nav-item pl-2 mb-2 mb-md-0">
-                        <a href="#!" type="button" class="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light">
-                            Sign In
-                        </a>
+                        <button><a href="#" type="button" class="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light" data-toggle="modal" data-target="#modalRegisterForm">Sign In</a></button>
                     </li>
                 </ul>
             </nav>        
         </div>
+        
+        <div class="modal fade" id="modalRegisterForm" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      <div header="modal-header">
+                          <h5 class="modal-title mx-auto">Sign In to Seedling</h5>
+                          <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>      
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="md-form md-outline">
+                              <i class="fa fa-user prefix"></i>
+                              <label data-error="wrong" data-success="right" for="modalRegisterForm">Username</label>
+                              <input type="text" id="modalRegisterForm-name" class="form-control">
+                          </div>
+                          <div class="md-form md-outline">
+                              <i class="fa fa-lock prefix"></i>
+                              <label data-error="wrong" data-success="right" for="modalRegisterForm">Password</label>
+                              <input type="text" id="modalRegisterForm-password" class="form-control">
+                          </div> 
+                      </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                          <button class="btn btn-primary">Sign In</button>
+                      </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                         <h5 class="modal-title mx-auto">Don't have an account yet?</h5>
+                         <button class="btn btn-primary">Create Account</button>
+                      </div>
+                  </div>
+              </div>
+          </div> 
         
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -56,13 +86,13 @@
                 <a class="nav-link" href="#">CLASSES</a>      
                   </li>
                   <li class="nav-item">
-                <a class="nav-link" href="calendar.html">CALENDAR</a>      
+                <a class="nav-link" href="../HTML/calendar.html">CALENDAR</a>      
                   </li>
                   <li class="nav-item">
                 <a class="nav-link" href="#">SUMMER CAMPS</a>      
                   </li>
                   <li class="nav-item">
-                <a class="nav-link" href="merchandise.html">MERCHANDISE</a>      
+                <a class="nav-link" href="../HTML/merchandise.html">MERCHANDISE</a>      
                   </li>
                   <li class="nav-item">
                 <a class="nav-link" href="#">FORMS</a>      
@@ -71,17 +101,17 @@
                 <a class="nav-link" href="#">MORE</a>      
                   </li>                        
                   <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT US</a>      
+                <a class="nav-link" href="../HTML/contact.html">CONTACT US</a>      
                   </li>
                 </ul>
             </div>
         </nav>
         
         <div class="sideimg1">
-            <img class="img-fluid" src="item1.jpg" alt="sideimg" width="214" height="800">
+            <img class="img-fluid" src="../IMAGES/item1.jpg" alt="sideimg" width="214" height="800">
         </div>
         <div class="sideimg2">
-            <img class="img-fluid" src="item2.jpg" alt="sideimg" width="214" height="800">
+            <img class="img-fluid" src="../IMAGES/item2.jpg" alt="sideimg" width="214" height="800">
         </div>
         
         <div class="container-fluid">
@@ -147,7 +177,7 @@
             <div class="d-flex justify-content-between" style="background-color: crimson;">  
                    <div class="row" style="height: 200px">                        
                       <div class="col" style="background-color: crimson;">
-                       <div class="d-flex justify-content-between"> 
+                       <div class="footer1"> 
                          <div class="p-2">
                             <div class="footerleft"> 
                             <p>980 American Pacific Dr #103 
@@ -167,13 +197,13 @@
                          <div class="p-2">
                            <div class="footerright">
                             <a href="#"> 
-                            <img class="img-fluid" src="facebook-icon-circle-logo.png" alt="socialmedia" width="50" height="50"> 
+                            <img class="img-fluid" src="../IMAGES/facebook-icon-circle-logo.png" alt="socialmedia" width="50" height="50"> 
                             </a>
                             <a href="#"> 
-                            <img class="img-fluid" src="SOCIAL_ICONS_YOUTUBE.png" alt="socialmedia" width="52" height="52"> 
+                            <img class="img-fluid" src="../IMAGES/SOCIAL_ICONS_YOUTUBE.png" alt="socialmedia" width="52" height="52"> 
                             </a>
                             <a href="#"> 
-                            <img class="img-fluid" src="twitter-circle.png" alt="socialmedia" width="50" height="50"> 
+                            <img class="img-fluid" src="../IMAGES/twitter-circle.png" alt="socialmedia" width="50" height="50"> 
                             </a>
                            </div>
                          </div>

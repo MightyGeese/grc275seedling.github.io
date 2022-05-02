@@ -27,7 +27,7 @@ button.close {
 }
 
 .toprow {
-    background-image: url(IMAGES/curtains.jpg);
+    background-image: url(curtains.jpg);
     color: white;
     font-family: 'Spicy Rice', cursive;
     text-align: center;
@@ -560,7 +560,7 @@ a {
 }
 
 .registrations .container-fluid {
-    background-image: url(IMAGES/homepagestage_large2.jpg);
+    background-image: url(homepagestage_large2.jpg);
 }
 
 .tshirt h5 {
